@@ -1,0 +1,56 @@
+/* Home.css */
+.hero-section {
+    background: linear-gradient(135deg, #6e8efb, #a777e3);
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+  }
+  
+  .hero-buttons button {
+    margin: 0 10px;
+  }
+  
+  .cta-buttons button {
+    margin: 10px;
+  }
+  
+  .search-bar {
+    max-width: 600px;
+    margin: 0 auto;
+  }
+  
+  .search-bar input {
+    height: 50px;
+    font-size: 1.2rem;
+  }
+  
+  footer {
+    background: #333;
+  }
+  
+  footer a {
+    color: #fff;
+    text-decoration: none;
+  }
+  
+  footer a:hover {
+    text-decoration: underline;
+  }
+  
+  @keyframes pulse {
+    0% {
+      transform: scale(1);
+    }
+    50% {
+      transform: scale(1.05);
+    }
+    100% {
+      transform: scale(1);
+    }
+  }
+  
+  .animate__pulse {
+    animation: pulse 2s infinite;
+  }
